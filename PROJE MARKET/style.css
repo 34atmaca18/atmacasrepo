@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Sono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono',monospace;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.5s;
+}
+
+body {
+    background-color: rgb(118, 157, 239);
+    height: 100vh;
+    width: 100%;
+    padding: 5rem 6rem;
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 30px;
+    display: flex;
+}
+
+.container .sol{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(115, 111, 143);
+    border-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem 3.5rem;
+}
+
+.container .sol .sol-ust {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.container .sol .sol-orta{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(51, 36, 73);
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.container .sol .sol-orta-sag {
+    display: flex;
+}
+
+.container .sol .sol-orta-sag .numbs{
+    font-weight: 400;
+    color: white;
+    font-size: 19px;
+}
+
+.container .sol .sol-orta-sag i{
+    color: white;
+    font-size: 15px;
+    background-color: violet;
+    border: 1px solid black;
+}
+
+.container .sol .sol-orta-sag div {
+    margin-left: 30px;
+}
+
+.container .sol .sol-alt{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -27px;
+}
+
+.container .sol .sol-alt img {
+    width: 80px;
+    height: 80px;
+}
+
+.container .sol .sol-alt .resim{
+    display: flex;
+    width: 100%;
+}
+
+.container .sol .sol-alt .oyun-info{
+    margin-top: 10px;
+}
+
+.container .sol .sol-alt a {
+    text-decoration: none;
+    font-size: 13px;
+    color: aqua;
+}
+
+.container .sol .sol-alt a:hover {
+    font-size: 100%;
+}
+
+.container .sol .sol-alt .sol-alt-sag{
+    display: flex;
+}
+
+.container .sol .sol-alt .sol-alt-sag div{
+    margin-right: 50px;
+}
+
+.container .sol .continue{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.container .sag{
+    height: 100%;
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+.container .sag .order{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.container .sag .sag-ust{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container .sag .normal{
+    margin-top: 20px;
+}
+
+.container .sag .normal,.container .sag .faster{
+    font-size: 15px;
+}
+
+.container .sag .shipping input{
+    margin-top: 3px;
+}
+
+.container .sag .promo {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2.5px solid black;
+    width: 130px;
+}
+
+.container .sag .input input {
+    margin-top: 7px;
+    width: 100%;
+    height: 30px;
+} 
+.container .sag .apply{
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .sag .sag-alt {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .sag .checkout {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(158, 158, 241);
+    width: 100%;
+    font-size: 18px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 2px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all ease-in 0.2s;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: pink;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px black;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+}
+
+.saat {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.nokta {
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    z-index: 10;
+    margin-top: 192px;
+}
+
+#hr,#mn,#sc,.nokta {
+    position: absolute;
+    transform-origin: bottom center;
+}
+
+#hr {
+    width: 6px;
+    height: 80px;
+    background-color: black;
+    z-index: 10;
+    margin-top: 120px;
+}
+
+#mn {
+    width: 4px;
+    height: 110px;
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+    margin-top: 90px;
+}
+
+#sc {
+    width: 1.5px;
+    height: 120px;
+    z-index: 10;
+    background-color: red;
+    margin-top: 80px;
+    transform: translateY();
+
+}
+
+
+.resim {
+    position: absolute;
+    z-index: -1;
+}
+img {
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
