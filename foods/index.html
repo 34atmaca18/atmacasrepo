@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div style="background-color: black;" class="panel active">
+            <h1>BLACK</h1>
+        </div>
+        <div style="background-color: green;" class="panel">
+            <h1>GREEN</h1>
+        </div>
+        <div style="background-color: yellow;" class="panel">
+            <h1>Yellow</h1>
+        </div>
+        <div style="background-color: red;" class="panel">
+            <h1>RED</h1>
+        </div>
+        <div style="background-color: pink;" class="panel">
+            <h1>PINK</h1>
+        </div>
+    </div>
+    <script>
+var panel = document.querySelectorAll('.container .panel');
+
+panel.forEach(p => {
+    p.addEventListener('click',() => {
+        panel.forEach(a =>{
+            a.classList.remove('active');
+        })
+        p.classList.add('active');
+    })
+})      
+    </script>
+</body>
+</html>
